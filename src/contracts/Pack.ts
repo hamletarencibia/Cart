@@ -1,5 +1,5 @@
-import { Product } from "./Product";
+import { IProduct } from "./Product";
 
-export interface Pack extends Product {
-    products: Product[];
+export interface IPack extends IProduct {
+    products: IProduct[];
 }

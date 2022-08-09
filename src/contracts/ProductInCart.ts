@@ -1,7 +1,7 @@
-import { Pack } from "./Pack";
-import { Product } from "./Product";
+import { IPack } from "./Pack";
+import { IProduct } from "./Product";
 
-export interface ProductInCart {
-    product: Product | Pack;
+export interface IProductInCart {
+    product: IProduct | IPack;
     quantity: number;
 }
