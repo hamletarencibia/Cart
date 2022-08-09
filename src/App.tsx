@@ -1,14 +1,15 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import CartLayout from "./layout/CartLayout";
 import Cart from "./pages/Cart";
+import { CartProvider } from "./context/CartContext";
 
 function App() {
   return (
-    <CartLayout>
-      <Cart />
-    </CartLayout>
+    <CartProvider>
+      <CartLayout>
+        <Cart />
+      </CartLayout>
+    </CartProvider>
   );
 }
 
