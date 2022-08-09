@@ -5,7 +5,7 @@ import { FooterLink, FooterListItem } from ".";
 const Information: FC = () => {
   return (
     <Box>
-      <Typography variant="h6">Information</Typography>
+      <Typography fontSize={16} fontWeight={700} color="#091625">Information</Typography>
       <List>
         <FooterListItem>
           <FooterLink href="#">Contact us</FooterLink>

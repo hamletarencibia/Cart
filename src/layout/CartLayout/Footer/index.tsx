@@ -6,7 +6,9 @@ import Information from "./Information";
 import OurCompany from "./OurCompany";
 
 export const FooterLink = styled(Link)(`
-    color: #787878;
+    color: #3A4451;
+    font-size: 15px;
+    font-weight: 400;
     text-decoration: none;
     &:hover {
         text-decoration: underline;

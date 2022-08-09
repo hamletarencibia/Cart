@@ -19,14 +19,17 @@ const SocialMediaButtons = styled(IconButton)(`
 const ContactUs: FC = () => {
   return (
     <Box sx={{ maxWidth: "80%" }}>
-      <img src={"/logo192.png"} height={40} />
-      <Typography variant="subtitle2" color="#6B737C">
+      <img src={"/logo192.png"} height={40} alt="Cart" />
+      <Typography fontSize={15} fontWeight={400} color="#6B737C">
         We sell custom products for all your needs. Packs and bulk products that
         you will enjoy.
       </Typography>
-      <Typography variant="subtitle2">
-        <PhoneIcon fontSize="small" /> +1-202-555-0129
-      </Typography>
+      <Box display={"flex"} my={2}>
+        <PhoneIcon fontSize="small" />&nbsp;
+        <Typography fontSize={15} fontWeight={600} color="#091625">
+          +1-202-555-0129
+        </Typography>
+      </Box>
       <Box mt={2}>
         <SocialMediaButtons size="small">
           <FacebookIcon fontSize="inherit" />
